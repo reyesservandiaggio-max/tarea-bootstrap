@@ -1,0 +1,20 @@
+/* estilos generales para el cuerpo de la pagina */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* animacion para las tarjetas de personajes */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efecto visual al pasar el cursor sobre la tarjeta */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255, 193, 7, 0.5) !important;
+}
+
+/* efecto neon para el texto principal de presentacion */
+.display-3 {
+    text-shadow: 0 0 10px rgba(255, 193, 7, 0.7);
+}
